@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 
-export default function Header2() {
+export default function Header() {
   useEffect(() => {
     window.scroll(function () {
       if (document.scrollTop() > 50) {
@@ -16,7 +16,7 @@ export default function Header2() {
 
   return (
     <>
-      <nav className="nav">
+      <nav className="nav body">
         <div className="container">
           <div className="logo">
             <a href="/">Edyta Radomska</a>
@@ -44,7 +44,7 @@ export default function Header2() {
           </span>
         </div>
       </nav>
-      <section class="home"></section>
+      <section className="home"></section>
     </>
   );
 }
