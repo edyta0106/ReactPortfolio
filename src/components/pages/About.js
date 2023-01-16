@@ -7,9 +7,8 @@ export default function About() {
   return (
     <>
       <Link to="/"></Link>
-
       <div className="container body">
-        <div className="row my-5">
+        <div className="row">
           <div className="col-4 profile-pic my-5"></div>
           <div className="col-8">
             <h2 className="myH2 my-5">About Me</h2>

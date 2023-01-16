@@ -1,18 +1,26 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 
 export default function Header() {
-  useEffect(() => {
-    window.scroll(function () {
-      if (document.scrollTop() > 50) {
-        document.querySelector(".nav").addClass("affix");
-        console.log("OK");
-      } else {
-        document.querySelector(".nav").removeClass("affix");
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   window.scroll(function () {
+  //     if (document.scrollTop() > 50) {
+  //       document.querySelector(".nav").addClass("affix");
+  //       console.log("OK");
+  //     } else {
+  //       document.querySelector(".nav").removeClass("affix");
+  //     }
+  //   });
+  //   // document.querySelector(".navTrigger").addEventListener("click", function () {
+  //   //   // this.toggleClass("active");
+  //   //   this.classList.toggle("active");
+  //   //   console.log("Clicked menu");
+  //   //   // document.querySelector("#mainListDiv").toggleClass("show_list");
+  //   //   document.querySelector("#mainListDiv").classList.toggle("show_list");
+  //   //   // document.querySelector("#mainListDiv").fadeIn();
+  //   // });
+  // }, []);
 
   return (
     <>

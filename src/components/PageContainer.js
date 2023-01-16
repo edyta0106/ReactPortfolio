@@ -7,7 +7,7 @@ import Resume from "./pages/Resume";
 
 export default function PageContainer() {
   return (
-    <div className="PageContainer">
+    <div className="PageContainer bg">
       <Routes>
         <Route exact path="/" element={<About />} />
         <Route exact path="/portfolio" element={<Portfolio />} />
