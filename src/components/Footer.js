@@ -7,7 +7,6 @@ import "../images/instagram-logo.png";
 export default function Footer() {
   return (
     <footer className="footer d-flex justify-content-center align-items-center">
-      <Link to="/"></Link>
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="col-1 d-flex justify-content-center">
