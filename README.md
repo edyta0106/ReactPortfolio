@@ -30,13 +30,13 @@ The following is a link to the deployed application:
 
 The following sceenshots display the web application's appearance and functionality:
 
-![About Me](../my-app/assets/AboutMe.png)
+![About Me](./assets/AboutMe.png)
 
-![Portfolio](../my-app/assets/Portfolio.png)
+![Portfolio](./assets/Portfolio.png)
 
-![Resume](../my-app/assets/Resume.png)
+![Resume](./assets/Resume.png)
 
-![Contact Me](../my-app/assets/Contact.png)
+![Contact Me](./assets/Contact.png)
 
 ## Questions
 
