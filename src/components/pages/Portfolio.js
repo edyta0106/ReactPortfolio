@@ -50,7 +50,7 @@ export default function Portfolio() {
                   DevDive
                 </Typography>
                 <Typography className="text-light" variant="body2" color="text.secondary">
-                  DevDive allow you to search for jobs in the tech industry based on experience and preferences. Create an account. Apply for jobs by
+                  DevDive allows you to search for jobs in the tech industry based on experience and preferences. Create an account. Apply for jobs by
                   following the provided company link in job description.
                 </Typography>
               </CardContent>
@@ -153,7 +153,7 @@ export default function Portfolio() {
               <CardMedia component="img" alt="logo" height="170" image={require("../../images/EmployeeTracker.png")} />
               <CardContent className="bg-secondary text-light">
                 <Typography gutterBottom variant="h5" component="div">
-                  Employee Tracker
+                  Employee Tracker (Back-End)
                 </Typography>
                 <Typography className="text-light" variant="body2" color="text.secondary">
                   Need a way to view and manage the departments, roles, and employees in your company? A great way to organize and plan your business

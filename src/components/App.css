@@ -352,6 +352,17 @@ html,
   text-align: center;
   font-size: 4rem;
 }
+
+.myH3 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.myH4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 .myP {
   text-align: justify;
   padding-left: 15%;
