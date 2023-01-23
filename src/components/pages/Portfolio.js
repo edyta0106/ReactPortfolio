@@ -70,14 +70,14 @@ export default function Portfolio() {
           </div>
           <div className="col-4 d-flex justify-content-center my-5">
             <Card sx={{ maxWidth: 345 }}>
-              <CardMedia component="img" alt="logo" height="170" image={require("../../images/ComingSoon.png")} />
+              <CardMedia component="img" alt="logo" height="170" image={require("../../images/goldengoose.PNG")} />
               <CardContent className="bg-secondary text-light">
                 <Typography gutterBottom variant="h5" component="div">
                   Golden Goose Finance
                 </Typography>
                 <Typography className="text-light" variant="body2" color="text.secondary">
                   Saving up for that dream vacation? Paying down some debt? Setting up a budget just got easier. The Golden Goose Finance app allows
-                  you to track all your expenses on the go with just a few clicks. COMING SOON!
+                  you to track all your expenses on the go with just a few clicks.
                 </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
