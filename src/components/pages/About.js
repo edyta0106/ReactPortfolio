@@ -6,7 +6,7 @@ import "../../images/profile-photo.jpg";
 export default function About() {
   return (
     <>
-      <Link to="/ReactPortfolio/"></Link>
+      <Link to="/"></Link>
       <div className="container body">
         <div className="row">
           <div className="col-4 profile-pic my-5"></div>
