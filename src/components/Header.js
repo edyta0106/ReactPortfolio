@@ -12,14 +12,14 @@ export default function Header() {
   //       document.querySelector(".nav").removeClass("affix");
   //     }
   //   });
-  //   // document.querySelector(".navTrigger").addEventListener("click", function () {
-  //   //   // this.toggleClass("active");
-  //   //   this.classList.toggle("active");
-  //   //   console.log("Clicked menu");
-  //   //   // document.querySelector("#mainListDiv").toggleClass("show_list");
-  //   //   document.querySelector("#mainListDiv").classList.toggle("show_list");
-  //   //   // document.querySelector("#mainListDiv").fadeIn();
-  //   // });
+  //   document.querySelector(".navTrigger").addEventListener("click", function () {
+  //     // this.toggleClass("active");
+  //     this.classList.toggle("active");
+  //     console.log("Clicked menu");
+  //     // document.querySelector("#mainListDiv").toggleClass("show_list");
+  //     document.querySelector("#mainListDiv").classList.toggle("show_list");
+  //     // document.querySelector("#mainListDiv").fadeIn();
+  //   });
   // }, []);
 
   return (
