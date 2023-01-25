@@ -24,7 +24,7 @@ Use `npm start` from the command line to start running the scripts in the packag
 
 The following is a link to the deployed application:
 
-[Edyta Radomska's Professional Portfolio](https://edyta0106.github.io/ReactPortfolio/)
+[Edyta Radomska's Professional Portfolio](https://young-caverns-04376.herokuapp.com/)
 
 ## Mock-Up
 

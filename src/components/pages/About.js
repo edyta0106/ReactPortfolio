@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../App.css";
 import "../../images/profile-photo.jpg";
 
 export default function About() {
   return (
     <>
-      <Link to="/"></Link>
       <div className="container body">
         <div className="row">
           <div className="col-4 profile-pic my-5"></div>
