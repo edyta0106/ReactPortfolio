@@ -81,12 +81,12 @@ export default function Portfolio() {
                 </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
-                <a href="https://github.com/edyta0106/Financial_Tracker" target="_blank" rel="noopener noreferrer">
+                <a href="https://golden-goose-finance.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                   <Button className="text-info" size="small">
                     Demo
                   </Button>
                 </a>
-                <a href="https://github.com/edyta0106/Financial_Tracker" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/edyta0106/Golden-Goose-Finance" target="_blank" rel="noopener noreferrer">
                   <Button className="text-info" size="small">
                     GitHub
                   </Button>
