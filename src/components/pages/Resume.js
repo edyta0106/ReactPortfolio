@@ -13,7 +13,7 @@ export default function Resume() {
             <Box textAlign="center">
               <Button className="my-5" type="submit" sx={{ mt: 5, backgroundColor: "#666" }}>
                 <a
-                  href="https://drive.google.com/file/d/1qFiveMZHLPru4lXOFFJKZ-U09f8gt45Z/view?usp=share_link"
+                  href="https://drive.google.com/drive/folders/1pbQyztcRrLGfj-jPF4_i9nhpYFrPrxKc"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-light"
@@ -24,9 +24,10 @@ export default function Resume() {
             </Box>
             <h3 className="myH3">Summary: </h3>
             <p className="myH4 my-5">
-              Recent full-stack developer graduate with knowledge of software design, development, and testing. Seeking to utilize broad educational
-              background with excellent analytical, technical, and programming skills in front-end and back-end web development. Highly organized and
-              self-motivated leader eager to learn, grow, and develop new and existing projects.
+              Full Stack Web Developer with a 7-year background in real estate and a 2-year background in the mortgage industry. A proven ability to
+              combine innovation and problem-solving skills to develop user-friendly applications in a timely manner. Highly organized and
+              self-motivated team leader with a life-long passion for learning, growing and developing new and existing projects. Recently earned a
+              Certificate in Full Stack Web Development from the University of Denver, Colorado.
             </p>
             <h3 className="myH3">Education: </h3>
             <p className="myH4 my-5">Full Stack Coding Bootcamp Certification | University of Denver | January 2023</p>
@@ -36,7 +37,7 @@ export default function Resume() {
                 Browser Based Technologies: HTML5, CSS, JavaScript, jQuery, Responsive Design, Bootstrap, Progressive Web Applications (PWAs),
                 Handlebars, Local Storage, Session Storage, IndexedDB, React.js
               </li>
-              <li className="myH4 my-5">Databases: MySQL, MongoDB</li>
+              <li className="myH4 my-5">Databases: MySQL, MongoDB, GraphQL</li>
               <li className="myH4 my-5">
                 Server Side Development: Node.js, Express.js, User Authentication, Template Engines, MERN Stack (MongoDB, Express.js, React.js,
                 Node.js)
