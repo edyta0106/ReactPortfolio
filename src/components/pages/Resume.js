@@ -13,7 +13,7 @@ export default function Resume() {
             <Box textAlign="center">
               <Button className="my-5" type="submit" sx={{ mt: 5, backgroundColor: "#666" }}>
                 <a
-                  href="https://drive.google.com/drive/folders/1pbQyztcRrLGfj-jPF4_i9nhpYFrPrxKc"
+                  href="https://drive.google.com/file/d/1_k6shz5F_Fbg3LwKLtnhbeBe2NlWmiQZ/view?usp=share_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-light"
