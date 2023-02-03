@@ -15,6 +15,7 @@ export default function Portfolio() {
     <>
       <Link to="/portfolio"></Link>
       <div className="container">
+        <h2 className="myH2 body py-5">Projects</h2>
         <div className="row">
           <div className="col-4 d-flex justify-content-center my-5">
             <Card sx={{ maxWidth: 345 }}>

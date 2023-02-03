@@ -35,7 +35,7 @@ export default function Header() {
                 <Link to="/">About Me</Link>
               </li>
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/portfolio">Projects</Link>
               </li>
               <li>
                 <Link to="/resume">Resume</Link>

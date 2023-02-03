@@ -9,11 +9,11 @@ export default function Resume() {
       <div className="container ">
         <div className="row d-flex justify-content-center">
           <div className="col-8 py-5 body">
-            <h2 className="myH2">Resume: </h2>
+            <h2 className="myH2">Resume</h2>
             <Box textAlign="center">
               <Button className="my-5" type="submit" sx={{ mt: 5, backgroundColor: "#666" }}>
                 <a
-                  href="https://drive.google.com/file/d/1bf3WvI52mZKu_5A5Zd5zvHLDlpiIjJ9Z/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1lGWFD2u8lnhTggUSqZ3PXmofth3xq-ix/view?usp=share_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-light"
