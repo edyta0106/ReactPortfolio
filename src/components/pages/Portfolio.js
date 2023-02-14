@@ -24,7 +24,7 @@ export default function Portfolio() {
                 <Typography gutterBottom variant="h5" component="div">
                   Hangry
                 </Typography>
-                <Typography className="text-light" variant="body2" color="text.secondary">
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12}>
                   Are you feeling hungry and it's making you angry? Check out the Hangry app for all your hangry food swings. Search for recipes based
                   on dietary preferences or user craving.
                 </Typography>
@@ -50,9 +50,9 @@ export default function Portfolio() {
                 <Typography gutterBottom variant="h5" component="div">
                   DevDive
                 </Typography>
-                <Typography className="text-light" variant="body2" color="text.secondary">
-                  DevDive allows you to search for jobs in the tech industry based on experience and preferences. Create an account. Apply for jobs by
-                  following the provided company link in job description.
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12}>
+                  DevDive allows you to search for jobs in the tech industry based on experience and preferences. Create an account and apply for jobs
+                  by following the provided company link in the job description.
                 </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
@@ -76,9 +76,9 @@ export default function Portfolio() {
                 <Typography gutterBottom variant="h5" component="div">
                   Golden Goose Finance
                 </Typography>
-                <Typography className="text-light" variant="body2" color="text.secondary">
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12}>
                   Saving up for that dream vacation? Paying down some debt? Setting up a budget just got easier. The Golden Goose Finance app allows
-                  you to track all your expenses on the go with just a few clicks.
+                  you to track all of your expenses on the go with just a few clicks.
                 </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
@@ -104,9 +104,9 @@ export default function Portfolio() {
                 <Typography gutterBottom variant="h5" component="div">
                   E-Commerce Site (Back-End)
                 </Typography>
-                <Typography className="text-light" variant="body2" color="text.secondary">
-                  The back end for an e-commerce website that uses the latest technologies. With this application, a company can now compete with
-                  other e-commerce companies.
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12}>
+                  The back end for an e-commerce website that uses the latest technologies. Configured a working Express.js API to use Sequelize to
+                  interact with a MySQL database. With this application, a company can now compete with other e-commerce companies.
                 </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
@@ -130,9 +130,9 @@ export default function Portfolio() {
                 <Typography gutterBottom variant="h5" component="div">
                   Note Taker
                 </Typography>
-                <Typography className="text-light" variant="body2" color="text.secondary">
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12}>
                   If you're struggling with remembering your to-do's, this app is just for you. Organize your thoughts and your tasks with this Note
-                  Taker app. Write, save and delete your daily notes.
+                  Taker app. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
                 </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
@@ -156,7 +156,7 @@ export default function Portfolio() {
                 <Typography gutterBottom variant="h5" component="div">
                   Employee Tracker (Back-End)
                 </Typography>
-                <Typography className="text-light" variant="body2" color="text.secondary">
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12}>
                   Need a way to view and manage the departments, roles, and employees in your company? A great way to organize and plan your business
                   is by using this Employee Tracker app to manage a company's employee database.
                 </Typography>
