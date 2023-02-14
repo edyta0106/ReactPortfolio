@@ -6,14 +6,12 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { Link } from "react-router-dom";
 import "../App.css";
 import "../../images/hangry-logo.png";
 
 export default function Portfolio() {
   return (
     <>
-      <Link to="/portfolio"></Link>
       <div className="container">
         <h2 className="myH2 body py-5">Projects</h2>
         <div className="row">
@@ -28,22 +26,25 @@ export default function Portfolio() {
                   Are you feeling hungry and it's making you angry? Check out the Hangry app for all your hangry food swings. Search for recipes based
                   on dietary preferences or user craving.
                 </Typography>
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12} p={2}>
+                  Key Tools: HTML, Bootstrap, JavaScript, jQuery, REST APIs, JSON
+                </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
                 <a href="https://mandiebot.github.io/Hangry/" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     Demo
                   </Button>
                 </a>
                 <a href="https://github.com/MandieBot/Hangry" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     GitHub
                   </Button>
                 </a>
               </CardActions>
             </Card>
           </div>
-          <div className="col-4 d-flex justify-content-center my-5">
+          <div className="col-4 d-flex justify-content-center py-5">
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia component="img" alt="hamburger" height="170" image={require("../../images/DevDive.png")} />
               <CardContent className="bg-secondary text-light">
@@ -54,15 +55,18 @@ export default function Portfolio() {
                   DevDive allows you to search for jobs in the tech industry based on experience and preferences. Create an account and apply for jobs
                   by following the provided company link in the job description.
                 </Typography>
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12} p={2}>
+                  Key Tools: Node, Express, Handlebars, Sequelize, MySQL, Anime.js, REST APIs
+                </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
                 <a href="https://dev-dive.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     Demo
                   </Button>
                 </a>
                 <a href="https://github.com/BluSkreen/DevDive" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     GitHub
                   </Button>
                 </a>
@@ -80,15 +84,18 @@ export default function Portfolio() {
                   Saving up for that dream vacation? Paying down some debt? Setting up a budget just got easier. The Golden Goose Finance app allows
                   you to track all of your expenses on the go with just a few clicks.
                 </Typography>
+                <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12} p={2}>
+                  Key Tools: React, GraphQL, MongoDB, Node, Express, Material UI, JWT, Bcrypt, Chart.js
+                </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
                 <a href="https://golden-goose-finance.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     Demo
                   </Button>
                 </a>
                 <a href="https://github.com/edyta0106/Golden-Goose-Finance" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     GitHub
                   </Button>
                 </a>
@@ -111,12 +118,12 @@ export default function Portfolio() {
               </CardContent>
               <CardActions className="bg-secondary">
                 <a href="https://drive.google.com/file/d/1Wb0j5tWoRyV_pEwctaY6-oqDtm_qzLDG/view" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     Demo
                   </Button>
                 </a>
                 <a href="https://github.com/edyta0106/E-CommerceSite" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     GitHub
                   </Button>
                 </a>
@@ -137,12 +144,12 @@ export default function Portfolio() {
               </CardContent>
               <CardActions className="bg-secondary">
                 <a href="https://shielded-sierra-78661.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     Demo
                   </Button>
                 </a>
                 <a href="https://github.com/edyta0106/NoteTaker" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     GitHub
                   </Button>
                 </a>
@@ -158,17 +165,17 @@ export default function Portfolio() {
                 </Typography>
                 <Typography className="text-light" variant="body2" color="text.secondary" fontSize={12}>
                   Need a way to view and manage the departments, roles, and employees in your company? A great way to organize and plan your business
-                  is by using this Employee Tracker app to manage a company's employee database.
+                  is by using this Employee Tracker app to manage a company's employee database by using Node.js, Inquirer, and MySQL.
                 </Typography>
               </CardContent>
               <CardActions className="bg-secondary">
                 <a href="https://drive.google.com/file/d/13I6GoqLmKA-VaKFzLGdZLVYZ0_hm0Z02/view" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     Demo
                   </Button>
                 </a>
                 <a href="https://github.com/edyta0106/EmployeeTracker" target="_blank" rel="noopener noreferrer">
-                  <Button className="text-info" size="small">
+                  <Button className="text-info" size="large">
                     GitHub
                   </Button>
                 </a>
